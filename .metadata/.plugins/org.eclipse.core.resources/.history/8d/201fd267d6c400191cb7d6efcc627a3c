@@ -1,0 +1,5 @@
+package com.greatdigitallab.web.jdbc;
+
+public class Student {
+
+}

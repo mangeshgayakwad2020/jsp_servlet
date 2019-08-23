@@ -1,0 +1,29 @@
+package com.greatdigitallab.web.jdbc;
+
+import java.sql.Connection;
+import java.sql.ResultSet;
+import java.sql.Statement;
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.sql.DataSource;
+
+public class StudentDBUtil {
+
+	private DataSource dataSource;
+
+	public StudentDBUtil(DataSource dataSource) {
+		this.dataSource = dataSource;
+	}
+	
+	public List<Student> getStudents() throws Exception {
+		
+		List<Student> students = new ArrayList<Student>();
+		
+		Connection myConn = null;
+		Statement myStmt = null;
+		ResultSet myRs = null;
+		
+		return students;
+	}
+}

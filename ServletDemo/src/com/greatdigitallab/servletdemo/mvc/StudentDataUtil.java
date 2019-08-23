@@ -1,0 +1,23 @@
+package com.greatdigitallab.servletdemo.mvc;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class StudentDataUtil {
+
+	public static List<Student> getStudents(){
+		
+		// create an empty list
+		List<Student> students = new ArrayList<Student>();
+		
+		// add sample data
+		students.add(new Student("Mangesh", "Gayakwad", "mangesh.g@gmail.com"));
+		students.add(new Student("Anand", "Polas", "anand.p@gmail.com"));
+		students.add(new Student("Sushant", "Ranjan", "sushant.r@gmail.com"));
+		students.add(new Student("Ganesh", "Sahu", "ganesh.s@gmail.com"));
+		
+		// return the list
+		return students;
+		
+	}
+}

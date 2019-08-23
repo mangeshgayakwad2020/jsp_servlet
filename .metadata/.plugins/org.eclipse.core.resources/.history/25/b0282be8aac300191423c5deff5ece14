@@ -1,0 +1,22 @@
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<%@ page import="java.util.*,com.greatdigitallab.jsptagdemo.Student" %>
+
+<%
+	// just create some sample data, normally created by MVC
+	List<Student> students = new ArrayList<>();
+	
+	students.add(new Student("Mangesh", "Gayakwad", false));
+	students.add(new Student("Mangesh", "Gayakwad", false));
+	students.add(new Student("Mangesh", "Gayakwad", false));
+
+%>
+
+<html>
+
+<body>
+
+
+
+</body>
+
+</html>

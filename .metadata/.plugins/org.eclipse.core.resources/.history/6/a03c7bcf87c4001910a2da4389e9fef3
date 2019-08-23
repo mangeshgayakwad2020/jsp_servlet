@@ -1,0 +1,5 @@
+package com.greatdigitallab.servletdemo.mvc;
+
+public class Student {
+
+}

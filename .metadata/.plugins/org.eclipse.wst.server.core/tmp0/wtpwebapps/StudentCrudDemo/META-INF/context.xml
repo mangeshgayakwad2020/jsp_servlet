@@ -1,0 +1,10 @@
+<Context>
+
+  <Resource name="jdbc/student_crud_db" 
+  			auth="Container" type="javax.sql.DataSource"
+               maxActive="20" maxIdle="5" maxWait="10000"
+               username="mysqladmin" password="mysqladmin" 
+               driverClassName="com.mysql.jdbc.Driver"
+               url="jdbc:mysql://localhost:3306/student_crud_db?useSSL=false"/>
+
+</Context>

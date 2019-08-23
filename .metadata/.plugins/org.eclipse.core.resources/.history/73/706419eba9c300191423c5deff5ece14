@@ -1,0 +1,19 @@
+package com.greatdigitallab.jsptagdemo;
+
+public class Student {
+
+	private String firstName;
+	private String lastName;
+	private boolean goldCustomer;
+	
+	public Student() {
+
+	}
+
+	public Student(String firstName, String lastName, boolean goldCustomer) {
+		this.firstName = firstName;
+		this.lastName = lastName;
+		this.goldCustomer = goldCustomer;
+	}
+	
+}

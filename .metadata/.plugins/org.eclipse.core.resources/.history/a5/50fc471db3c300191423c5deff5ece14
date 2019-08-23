@@ -1,0 +1,9 @@
+<%@ taglib uri="http://java.sun.com/jsp/jstl/functions" prefix="fn" %>
+<html>
+
+<body>
+<c:set var="data" value="greatdigitallab" />
+Length of the string <b>${data}</b>: ${fn:length(data)}
+</body>
+
+</html>

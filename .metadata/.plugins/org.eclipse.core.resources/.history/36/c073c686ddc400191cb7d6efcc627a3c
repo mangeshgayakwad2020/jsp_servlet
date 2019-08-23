@@ -1,0 +1,19 @@
+<%@page import="com.greatdigitallab.web.jdbc.Student"%>
+<%@page import="java.util.List"%>
+
+<html>
+
+<head>
+	<title>Student Crud Demo</title>
+</head>
+
+<body>
+
+<%
+	// get the students from the request object (sent by servlet)
+	List<Student> students = (List<Student>) request.getAttribute("students");
+%>
+
+</body>
+
+</html>

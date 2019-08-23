@@ -1,0 +1,10 @@
+package com.greatdigitallab.servletdemo.mvc;
+
+import java.util.List;
+
+public class StudentDataUtil {
+
+	public static List<Student> getStudents(){
+		
+	}
+}

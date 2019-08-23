@@ -1,0 +1,36 @@
+<%@page import="com.greatdigitallab.web.jdbc.Student"%>
+<%@page import="java.util.List"%>
+
+<html>
+
+<head>
+	<title>Student Crud Demo</title>
+</head>
+
+<%
+	// get the students from the request object (sent by servlet)
+	List<Student> students = (List<Student>) request.getAttribute("students");
+%>
+
+<body>
+
+	<div id="wrapper">
+		<div id="header">
+			<h2>Coders Classic Academy</h2>
+		</div>
+	</div>
+
+	<div id="container">
+		<div id="content">
+			<table>
+				<tr>
+					<th>First Name</th>
+					<th>Last Name</th>
+					<th>Email</th>
+				</tr>
+			</table>
+		</div>
+	</div>
+</body>
+
+</html>
